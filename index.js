@@ -26,13 +26,13 @@ function determineGrammaticalNumber(value) {
   }
 
 function isSingular(value) {
-    return determineGrammaticalNumber(value) == singularValue;
+    return determineGrammaticalNumber(value) === singularValue;
 }
 
 function isPaucal(value) {
-    return determineGrammaticalNumber(value) == paucalValue;
+    return determineGrammaticalNumber(value) === paucalValue;
 }
 
 function isPlural(value) {
-    return determineGrammaticalNumber(value) == pluralValue;
+    return determineGrammaticalNumber(value) === pluralValue;
 }
