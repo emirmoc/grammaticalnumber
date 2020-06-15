@@ -20,10 +20,10 @@ function determineGrammaticalNumber(value) {
     const ultimateDigit = !Number.isNaN(ultimateDigitString) ? ultimateDigitString : 0;
 
     // Retrieving digit before last (0 if it does not exist)
-    const penultimateDigitString = parseInt(stringValue[stringValue.length - 2], 10);
-    const penultimateDigit = !Number.isNaN(penultimateDigitString) ? penultimateDigitString : 0;
+    const penultimateDigitString = stringValue[stringValue.length - 2];
+    const penultimateDigit = (!Number.isNaN(penultimateDigitString) && penultimateDigitString != '.') ? parseInt(penultimateDigitString, 10) : 0;
 
-    if (ultimateDigit === 1 && (stringValue.length === 1 || penultimateDigit !== 1)) {
+    if (ultimateDigit === 1 && penultimateDigit !== 1) {
       return singularValue;
     } else if (ultimateDigit >= 2 && ultimateDigit <= 4 && penultimateDigit !== 1) {
       return paucalValue;
