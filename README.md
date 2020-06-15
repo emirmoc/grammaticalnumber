@@ -1,9 +1,9 @@
 # grammaticalnumber
-A simple function determining whether an integer is singular, plural, or paucal. 
+A simple function determining whether a number (integer or floating point) is singular, plural, or paucal. 
 
-Paucal is used, among others, in Slavic languages, where certain numbers (2, 3, 4) may have a different grammatical form from other plural values. Additionally, all integers ending in '1' are considered singular in Slavic languages, except when they end in '11', when they are considered plural.
+Paucal is used, among others, in Slavic languages, where certain numbers (2, 3, 4) may have a different grammatical form from other plural values. Additionally, all numbers ending in '1' are considered singular in Slavic languages, except when they end in '11', when they are considered plural.
 
-The function determineGrammaticalNumber(value) accepts a positive or negative integer and returns one of the following strings: 'singular', 'plural', or 'paucal'.
+The function determineGrammaticalNumber(value) accepts a positive or negative numbers and returns one of the following strings: 'singular', 'plural', or 'paucal'.
 
 This string can then be used e.g. in determining which resource should be used with the number. In Bosnian and Croatian, one might say "1 čovjek", "3 čovjeka", "5 ljudi".
 
