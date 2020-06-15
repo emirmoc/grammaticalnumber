@@ -15,14 +15,13 @@ function determineGrammaticalNumber(value) {
 
     const stringValue = value.toString();
     
-    // Retrieving last digit (0 if it does not exist)
+   // Retrieving last digit (0 if it does not exist)
     const ultimateDigitString = parseInt(stringValue[stringValue.length - 1], 10);
     const ultimateDigit = !Number.isNaN(ultimateDigitString) ? ultimateDigitString : 0;
 
     // Retrieving digit before last (0 if it does not exist)
-    // Retrieving digit before last (0 if it does not exist)
-    const penultimateDigitString = stringValue[stringValue.length - 2];
-    const penultimateDigit = !Number.isNaN(penultimateDigitString) ? parseInt(penultimateDigitString, 10) : 0;
+    const penultimateDigitString = parseInt(stringValue[stringValue.length - 2], 10);
+    const penultimateDigit = !Number.isNaN(penultimateDigitString) ? penultimateDigitString : 0;
 
     if (ultimateDigit === 1 && penultimateDigit !== 1) {
       return singularValue;
