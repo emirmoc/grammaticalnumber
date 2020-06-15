@@ -14,7 +14,10 @@ function determineGrammaticalNumber(value) {
     }
 
     // Making sure logic works for non-integer numbers
-    const stringValue = value.toString().replace('.', '');
+    const stringValue = value.toString();
+    if (stringValue.includes('-')) {
+        stringValue = stringValue.split('-')[1];
+    }
     
     // Retrieving last digit (0 if it does not exist)
     const ultimateDigitString = stringValue[stringValue.length - 1];
