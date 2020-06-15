@@ -13,7 +13,7 @@ function determineGrammaticalNumber(value) {
       value = -value;
     }
 
-    let stringValue = value.toString();
+    const stringValue = value.toString();
     
     // Retrieving last digit (0 if it does not exist)
     const ultimateDigitString = parseInt(stringValue[stringValue.length - 1], 10);
