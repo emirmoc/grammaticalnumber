@@ -3,7 +3,7 @@ A simple function determining whether a number (integer or floating point) is si
 
 Paucal is used, among others, in Slavic languages, where certain numbers (2, 3, 4) may have a different grammatical form from other plural values. 
 
-Additionally, in Slavic languages, all multi-digit numbers ending in '1' are considered singular (except those ending in '11', which is considered plural), and all numbers ending in '1X' are considered plural.
+Additionally, in Slavic languages, all multi-digit numbers ending in '1' are considered singular (except those ending in '11', which are considered plural), and all numbers ending in '1X' are considered plural.
 
 The function determineGrammaticalNumber(value) accepts a positive or negative numbers and returns one of the following strings: 'singular', 'plural', or 'paucal'.
 
