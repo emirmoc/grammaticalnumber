@@ -24,15 +24,3 @@ function determineGrammaticalNumber(value) {
       return pluralValue;
     }
   }
-
-function isSingular(value) {
-    return determineGrammaticalNumber(value) === singularValue;
-}
-
-function isPaucal(value) {
-    return determineGrammaticalNumber(value) === paucalValue;
-}
-
-function isPlural(value) {
-    return determineGrammaticalNumber(value) === pluralValue;
-}
