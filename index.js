@@ -3,9 +3,9 @@ function determineGrammaticalNumber(value) {
       value = -value;
     }
 
-    const singularValue = 'Singular';
-    const paucalValue = 'Paucal';
-    const pluralValue = 'Plural';
+    const singularValue = 'singular';
+    const paucalValue = 'paucal';
+    const pluralValue = 'plural';
 
     // In Slavic languages:
     // Singular numbers end with 1, except when they end with 11
