@@ -7,10 +7,6 @@ public determineGrammaticalNumber(value: number) {
     const paucalValue = 'Paucal';
     const pluralValue = 'Plural';
 
-    if (environment.locale !== 'sr-Latn-BA') {
-      return value === 1 ? singularValue : pluralValue;
-    }
-
     // In Slavic languages:
     // Singular numbers end with 1, except when they end with 11
     // Paucal numbers end with 2, 3, 4, except when they end with 12, 13, 14
