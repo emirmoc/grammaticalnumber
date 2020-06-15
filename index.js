@@ -1,4 +1,4 @@
-public determineGrammaticalNumber(value: number) {
+function determineGrammaticalNumber(value: number) {
     if (value < 0) {
       value = -value;
     }
