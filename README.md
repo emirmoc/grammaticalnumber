@@ -9,5 +9,5 @@ This string can then be used e.g. in determining which resource should be used w
 
 Examples of usage:  
 determineGrammaticalNumber(301) will return the value 'singular'.  
-determineGrammaticalNumber(-9) will return the value 'plural'.  
+determineGrammaticalNumber(9) will return the value 'plural'.  
 determineGrammaticalNumber(23) will return the value 'paucal'.  
