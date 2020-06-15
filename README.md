@@ -5,7 +5,7 @@ Paucal is used, among others, in Slavic languages, where certain numbers (2, 3, 
 
 The function determineGrammaticalNumber(value) accepts a positive or negative integer and returns one of the following strings: 'singular', 'plural', or 'paucal'.
 
-This string can then be used e.g. in determining which resource should be used with the number. E.g. "1 čovjek", "3 čovjeka", "5 ljudi".
+This string can then be used e.g. in determining which resource should be used with the number. E.g. in Bosnian, Croatian, and Serbian, "1 čovjek", "3 čovjeka", "5 ljudi".
 
 Examples of usage:  
 determineGrammaticalNumber(301) will return the value 'singular'.  
