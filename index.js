@@ -13,8 +13,9 @@ function determineGrammaticalNumber(value) {
       value = -value;
     }
 
-    const ultimateDigit = value % 10;
-    const penultimateDigit = value < 10 ? 0 : Math.floor(value / 10 % 10);
+    const stringValue = value.toString();
+    const ultimateDigit = parseInt(stringValue[stringValue.length - 1]);
+    const penultimateDigit = parseInt(stringValue[stringValue.length - 2]);
 
     if (ultimateDigit === 1 && penultimateDigit !== 1) {
       return singularValue;
