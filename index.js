@@ -7,11 +7,6 @@ function determineGrammaticalNumber(value) {
     // Singular numbers end with 1, except when they end with 11
     // Paucal numbers end with 2, 3, 4, except when they end with 12, 13, 14
     // Plural numbers end with 0, 5-19
-    
-    // Making sure logic works for negative values
-    if (value < 0) {
-      value = -value;
-    }
 
     const stringValue = value.toString();
     
