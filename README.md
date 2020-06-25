@@ -1,4 +1,6 @@
 # grammaticalnumber
+"1 čovjek", "3 čovjeka", "5 ljudi".
+
 A simple function determining whether a number (integer or floating point) is singular, plural, or paucal.
 
 Paucal is used, among others, in Slavic languages, where certain numbers (2, 3, 4) may have a different grammatical form from other plural values. 
