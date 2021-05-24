@@ -9,7 +9,7 @@ Additionally, certain plural numbers, such as 11, are considered singular.
 
 The function determineGrammaticalNumber takes a positive or negative number as argument and returns one of the following strings: 'singular', 'plural', 'paucal'.
 
-This string can then be used in determining which message text to use with the number. In Bosnian and Croatian, one might write "1 čovjek", "3 čovjeka", "5 ljudi".
+This string can then be used in determining which message text to use with the number. In Bosnian and Croatian, one might write "1 čovjek", "3 čovjeka", or "5 ljudi".
 
 Examples of usage:
 
