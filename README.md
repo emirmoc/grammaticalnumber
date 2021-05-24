@@ -10,7 +10,10 @@ The function determineGrammaticalNumber takes a positive or negative number as a
 This string can then be used in determining which message text to use with the number. In Bosnian and Croatian, one might write "1 čovjek", "3 čovjeka", "5 ljudi".
 
 Examples of usage:
+
 determineGrammaticalNumber(301); // returns 'singular'
+
 determineGrammaticalNumber(9);   // returns 'plural'
+
 determineGrammaticalNumber(23);  // returns 'paucal'
 
