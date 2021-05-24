@@ -5,11 +5,11 @@ A function for determining whether a number (integer or floating point) is singu
 
 In Slavic languages such as Bosnian, Croatian, and Serbian, certain numbers (2, 3, 4) have a different grammatical form from other plural values. This form is called paucal.
 
-Additionally, certain plural numbers, such as 11, are considered singular.
+Additionally, certain plural numbers, such as 11, are gramatically treated as singular.
 
 The function determineGrammaticalNumber takes a positive or negative number as argument and returns one of the following strings: 'singular', 'plural', 'paucal'.
 
-This string can then be used in determining which message text to use with the number. In Bosnian and Croatian, one might write "1 čovjek", "3 čovjeka", or "5 ljudi".
+This string can then be used in determining which resource text to use with the number. In Bosnian and Croatian, one might write "1 čovjek", "3 čovjeka", or "5 ljudi".
 
 Examples of usage:
 
