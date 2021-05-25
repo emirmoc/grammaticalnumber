@@ -19,3 +19,5 @@ determineGrammaticalNumber(9);   // returns 'plural'
 
 determineGrammaticalNumber(23);  // returns 'paucal'
 
+
+Special thanks to Emina Kamenarević and Alma Sarajlić for their linguistic guidance.
