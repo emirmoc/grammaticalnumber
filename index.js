@@ -19,6 +19,6 @@ function determineGrammaticalNumber(value) {
     const penultimateDigit = !Number.isNaN(penultimateDigitString) ? penultimateDigitString : 0;
 
     if (ultimateDigit === 1 && penultimateDigit !== 1) return singularValue;
-    else if (ultimateDigit >= 2 && ultimateDigit <= 4 && penultimateDigit !== 1) return paucalValue;
-    else return pluralValue;
+    if (ultimateDigit >= 2 && ultimateDigit <= 4 && penultimateDigit !== 1) return paucalValue;
+    return pluralValue;
   }
