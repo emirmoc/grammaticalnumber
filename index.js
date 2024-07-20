@@ -22,3 +22,5 @@ function determineGrammaticalNumber(value) {
     if (ultimateDigit >= 2 && ultimateDigit <= 4 && penultimateDigit !== 1) return paucalValue;
     return pluralValue;
   }
+
+  module.exports = determineGrammaticalNumber

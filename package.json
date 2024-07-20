@@ -1,0 +1,26 @@
+{
+  "name": "grammaticalnumber",
+  "version": "1.0.0",
+  "description": "Determining whether a number (integer or floating point) should be treated as singular, plural, or paucal. Slavic languages may treat some plural numbers as a grammatical singular, and may use a second grammatical plural, called paucal. ",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emirmoc/grammaticalnumber.git"
+  },
+  "keywords": [
+    "paucal",
+    "number",
+    "language",
+    "slavic"
+  ],
+  "author": "Emir Moćević",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emirmoc/grammaticalnumber/issues"
+  },
+  "homepage": "https://github.com/emirmoc/grammaticalnumber#readme"
+}
